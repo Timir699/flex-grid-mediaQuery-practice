@@ -233,6 +233,14 @@ body {
     .courses .all-courses {
         flex-direction: column;
     }
+    .blog .article-img img {
+        width: 100%;
+        height: auto;
+    }
+    .courses .course-img img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media only screen and (min-width: 688px ) and
@@ -259,4 +267,5 @@ body {
     .courses > .section-heading > h2 {
         margin-left: 60px;
     }
+    
 }
